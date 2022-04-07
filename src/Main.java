@@ -27,7 +27,7 @@ public class Main {
                     answers.add(answer);
                     break;
                 } else {
-                    System.out.print("Wprowadz poprawną odp. ");
+                    System.out.print("Wprowadz poprawną odp. a, b lub c");
                     answer = scanner.next().charAt(0);
                 }
             }
